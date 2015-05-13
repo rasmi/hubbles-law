@@ -1,0 +1,12 @@
+.canvas-container {
+    margin: 0 auto;
+}
+
+.border canvas {
+    border: 1px solid #999;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
