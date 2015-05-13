@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="600"
+   height="70"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3155">
+      <stop
+         id="stop3165"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3169"
+         style="stop-color:#450946;stop-opacity:1"
+         offset="0.11" />
+      <stop
+         id="stop3171"
+         style="stop-color:#0000c8;stop-opacity:1"
+         offset="0.25" />
+      <stop
+         id="stop3173"
+         style="stop-color:#00c900;stop-opacity:1"
+         offset="0.41" />
+      <stop
+         id="stop3175"
+         style="stop-color:#c8c800;stop-opacity:1"
+         offset="0.54000002" />
+      <stop
+         id="stop3177"
+         style="stop-color:#ff7f00;stop-opacity:1"
+         offset="0.61000001" />
+      <stop
+         id="stop3179"
+         style="stop-color:#ff0400;stop-opacity:1"
+         offset="0.81999999" />
+      <stop
+         id="stop3159"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="192.78572"
+       y1="378.07645"
+       x2="652.92859"
+       y2="378.07645"
+       id="linearGradient3161"
+       xlink:href="#linearGradient3155"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.299375,0,0,0.3393939,-249.45001,-93.316842)" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       width="594"
+       height="64"
+       x="3"
+       y="3"
+       id="rect2383"
+       style="opacity:1;fill:url(#linearGradient3161);fill-opacity:1;stroke:#000000;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
