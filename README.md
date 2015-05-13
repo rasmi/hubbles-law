@@ -30,4 +30,4 @@ SELECT TOP 1000 lumDist, z
 FROM Photoz
 WHERE z>0
 ```
-This data was exported as a csv using the tool, and is located in [`data/redshift.csv`](data/redshift.csv). The data was plotted using [Angular-nvD3](https://krispo.github.io/angular-nvd3/), which relies on [D3.js](http://d3js.org/) and [AngularJS](https://angularjs.org/). Though a plot could be done simply with D3.js, Angular and [jQuery](https://jquery.org/) were included to allow for easy UI interactions in case of more complex future additions.
+This data was exported as a csv using the tool, and is located in [`data/redshift.csv`](data/redshift.csv). The data was plotted using [Angular-nvD3](https://krispo.github.io/angular-nvd3/), which relies on [D3.js](http://d3js.org/) and [AngularJS](https://angularjs.org/). Though a plot could be done simply with D3.js; Angular, [Bootstrap](http://getbootstrap.com/), and [jQuery](https://jquery.org/) were included to allow for easy UI interactions in case of more complex future additions.
