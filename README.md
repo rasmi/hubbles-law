@@ -24,7 +24,7 @@ Finally, an image of the CMB WMAP data ([`img/cmb.png`](img/cmb.png)) was retrie
 ## Plots
 Hubble's original plot ([`img/hubbleplot.png`](img/hubbleplot.png)) was retreived from [his 1929 paper](http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1929PNAS...15..168H).  
 
-For the modern plot, data was retrieved from the SDSS Photoz table using their [online SQL Search tool](http://skyserver.sdss.org/dr12/en/tools/search/sql.aspx). The following SQL query was used:
+For the modern plot, data was retrieved from the SDSS [Photoz table](http://skyserver.sdss.org/dr12/en/help/browser/browser.aspx?cmd=description+Photoz+U) using their [online SQL Search tool](http://skyserver.sdss.org/dr12/en/tools/search/sql.aspx). The following SQL query was used to select the luminosity distances and photometric redshifts of 1000 galaxies:
 ```
 SELECT TOP 1000 lumDist, z 
 FROM Photoz
