@@ -1,23 +1,15 @@
 var animate = false;
 markerPath = new Path(new Point(0,0));
 markerPath.strokeColor = 'gray';
-markerPath.add(new Point(0, 80));
+markerPath.add(new Point(0, 120));
 marker = new Symbol(markerPath);
 
-$.ajax({
-    type: 'GET',
-    url: 'img/linear_visible_spectrum.svg',
-    dataType: 'xml',
-    success: function(xml){
-        spectrumSymbol = new Symbol(paper.project.importSVG(xml.getElementsByTagName('svg')[0]));
-        paper.activate();
-        draw();
-        paper.view.draw();
-    }
-});
+draw();
 
 function draw() {
     // Draw spectrums and text labels.
+    spectrumSymbol = new Symbol(new Raster('visible_spectrum'));
+
     normal = spectrumSymbol.place(new Point(view.bounds.center.x, view.bounds.topLeft.y + 20));
     normal.position += new Point(0, normal.bounds.height/2);
     blueshifted = spectrumSymbol.place(new Point(normal.bounds.center.x, normal.bounds.bottom + normal.bounds.height));

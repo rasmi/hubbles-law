@@ -15,9 +15,7 @@ The fourth figure ([`js/expansion.js`](js/expansion.js)) allows the user to inte
 ## Images
 Images illustring the visual spectrum were retrieved from Wikimedia Commons.  
 
-The [first](https://commons.wikimedia.org/wiki/Category:Visible_spectrum#/media/File:Spectre_detail.png) ([`img/spectrum_waves.png`](img/spectrum_waves.png)) illustrates waves of varying length above the visible spectrum and was cropped slightly for aesthetic purposes.  
-
-The [second](https://commons.wikimedia.org/wiki/File:Linear_visible_spectrum.svg) ([`img/linear_visible_spectrum.svg`](img/linear_visible_spectrum.svg)) is an SVG of the visible spectrum and was used as a background for the interactive figure of how we perceive doppler-shifted spectral lines ([`js/spectrum.js`](js/spectrum.js)).  
+The [first](https://commons.wikimedia.org/wiki/Category:Visible_spectrum#/media/File:Spectre_detail.png) ([`img/spectrum_waves.png`](img/spectrum_waves.png)) illustrates waves of varying length above the visible spectrum and was cropped slightly for aesthetic purposes. It was used as a background for the interactive figure of how we perceive doppler-shifted spectral lines ([`js/spectrum.js`](js/spectrum.js)).  
 
 Finally, an image of the CMB WMAP data ([`img/cmb.png`](img/cmb.png)) was retrieved from [NASA](http://map.gsfc.nasa.gov/media/121238/index.html).
 
